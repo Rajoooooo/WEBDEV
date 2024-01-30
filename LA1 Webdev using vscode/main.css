@@ -1,0 +1,63 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --red: #892d2d;
+    --yellow: #dbc81f;
+    }
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: Lucida Handwriting;
+    }
+
+ul {
+    font-family: Arial;
+}
+
+li {
+    font-family: Lucida Console;
+    list-style: circle;
+}
+
+.list1 {
+    font-family: Lucida Console;
+    list-style-type: disc;
+}
+
+.list2 {
+    list-style: square;
+}
+
+#msg {
+    font-family: Garamond;
+    font-size: larger;
+}
+
+.light-theme {
+    --bg: var(--red);
+    --fontColor: var(--yellow);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+    
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--red);
+    --btnFontColor: var(--white);
+}
+
+.btn {
+        position: absolute;
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+}
+        
