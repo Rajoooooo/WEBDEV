@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/outdoor-scenery-spring-beautiful-powerpoint-background_28c24663d7__960_540.jpg'); /* Set your background image URL */
+    background-size: cover; 
+    background-position: center; 
+    background-color: #ac8355; 
+    padding-top: 20px;  
+}
+
+h1 {
+    color: #000000;
+    border: 2px solid #ffffff; 
+    background-color: rgba(57, 92, 57, 0.8); 
+    padding: 10px; 
+    border-radius: 30px; 
+}
+
+
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; 
+}
+
+details p {
+    margin: 10px 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
