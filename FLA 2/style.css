@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/medical-healthcare-background_GJumGl9O_SB_PM.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 16px;
+    background-color: rgb(237, 246, 246);
+    width: 500px;
+    box-shadow: 0 0  3px 0 rgba(205, 196, 196, 0.3);
+    text-align: center;
+    margin: 8% auto;
+    padding: 20px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(208, 247, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;   
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus
+{
+    background-color: rgb(185, 244, 232);
+    outline: none;
+    
+}
+
+.btnSignup
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(58, 204, 237);
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.60;
+}
+
+.btnSignup:hover
+{
+    opacity: 1;
+}
+
+a
+{
+    color: rgb(230, 30, 30);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background: #6e8efb;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #a777e3;
+}
